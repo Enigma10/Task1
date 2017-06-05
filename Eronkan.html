@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fee Details Task</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <h1>Eronkan Task </h1>
+
+      <div id="container" class="">
+        
+        <select id="fees" onchange="getFee()">
+          <option selected="selected">Select Fees</option>
+          <option value="exam">Exam</option>
+          <option value="application">Application</option>
+        </select>
+
+        <select class="hide" id="nationality" onchange="getNationality()">
+        </select>
+        <br>
+        <select class="hide" id="course" onchange="getCourse()" >
+        </select>  
+        <select class="hide" id="level" onchange="getLevel()">
+        </select>  
+      </div>
+      <p id="result">
+      </p>
+      <div class="footer">by<a href="https://codepen.io/Enigma10/" target="_blank">  Enigma10</a></div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+      <script src="Eronkan.js"></script>
+    
+  </body>
+</html>
